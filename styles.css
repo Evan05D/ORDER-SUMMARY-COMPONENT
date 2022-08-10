@@ -94,6 +94,11 @@ body {
   color: var(--brightBlue);
 }
 
+.plan-container .change:hover{
+  color: hsl(245, 78%, 65%);
+  transition: 0.5s;
+}
+
 #main-container  button {
   padding: 12px 70px;
   border-radius: 9px;
@@ -105,12 +110,22 @@ body {
   cursor: pointer;
 }
 
+#main-container button:hover{
+  background-color: hsl(245, 78%, 65%);
+  transition: 0.5s;
+}
+
 #main-container .cancel {
   color: var(--desaturatedBlue);
   text-decoration: none;
   margin: 15px 0;
   font-weight: 900;
   font-size: 0.9em;
+}
+
+#main-container .cancel:hover{
+  color: hsl(226, 9%, 30%);
+  transition: 0.5s;
 }
 
 
